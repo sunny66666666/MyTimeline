@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>My Timeline.Android</title>
+		<link rel="stylesheet" href="css/timeline-style.css" />
+		<link rel="stylesheet" href="css/timeline-android.css" />
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<link href='http://fonts.googleapis.com/css?family=Economica:700' rel='stylesheet' type='text/css'>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.filterizr.js"></script>
+		<link rel="stylesheet" href="css/my-button.css" />
+	<link rel="stylesheet" href="css/timeline-info.css" />
+
+	</head>
+
+	<body class="android">
+		<div class="head">
+			<!--头部开始-->
+			<h1>WORKS COLLECTION</h1>
+			<h2>Stay hungry,stay foolish</h2>
+		</div>
+		<!--头部结束-->
+		<div class="content">
+			<!--内容开始-->
+			<div class="nav">
+				<!--导航开始-->
+				<div class="nav-list">
+					<ul>
+						<li>
+							<a href="index.html">Home</a>
+						</li>
+						<li>
+							<a href="web.html" class="nav-a" onclick="changeBg()">Web</a>
+						</li>
+						<li>
+							<a href="android.html" class="nav-a" >Android</a>
+						</li>
+						<li>
+							<a href="info.html" class="nav-a" id="home">Info</a>
+						</li>
+						<li id="no-after">
+							<a href="about.html" class="nav-a">About</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="clean"></div>
+			<!--导航结束-->
+			<div class="main">
+				<!--主模块开始-->
+				<div class="timeline">
+					<!--android 作品展示开始-->
+					<div class="android-box " >
+						<div class="work-pics" id="url-box"><!--粉色外边框开始-->
+							<p class="model-title">工具</p><!--工具模块开始-->
+								<ul>
+									<li class="svg-wrapper">
+											<svg height="40" width="150">
+												<rect id="shape" height="40" width="150" />
+												<div id="text">
+													<a href="http://tool.oschina.net/codeformat/json">在线工具</a>
+												</div>
+											</svg>
+									</li>
+									<li class="svg-wrapper">
+											<svg height="40" width="150">
+												<rect id="shape" height="40" width="150" />
+												<div id="text">
+													<a href="http://www.iconfont.cn/plus">阿里巴巴图标库</a>
+												</div>
+											</svg>
+									</li>
+									<li class="svg-wrapper">
+											<svg height="40" width="150">
+												<rect id="shape" height="40" width="150" />
+												<div id="text">
+													<a href="http://www.easyicon.net/update/">EasyIcon 图标库 </a>
+												</div>
+											</svg>
+									</li>
+									<li class="svg-wrapper">
+											<svg height="40" width="150">
+												<rect id="shape" height="40" width="150" />
+												<div id="text">
+													<a href="http://www.w3school.com.cn/tiy/color.asp">颜色测试</a>
+												</div>
+											</svg>
+									</li>
+									<li class="svg-wrapper">
+											<svg height="40" width="150">
+												<rect id="shape" height="40" width="150" />
+												<div id="text">
+													<a href="https://app.yinxiang.com/Login.action?targetUrl=%2FHome.action#n=d63e2f1f-7acf-4a7f-a56b-796f0fa48207&ses=4&sh=2&sds=5&">
+											                 印象笔记</a>
+												</div>
+											</svg>
+									</li>
+									<li class="svg-wrapper">
+											<svg height="40" width="150">
+												<rect id="shape" height="40" width="150" />
+												<div id="text">
+													<a href="http://app.xunjiepdf.com/">PDF迅捷转换器 </a>
+												</div>
+											</svg>
+									</li>
+								</ul><!--工具模块结束-->
+								<p class="model-title">常用第三方</p><!--常用第三方模块开始-->
+								<ul>
+									<li class="svg-wrapper">
+											<svg height="40" width="150">
+												<rect id="shape" height="40" width="150" />
+												<div id="text">
+													<a href="https://www.pgyer.com/">蒲公英内测专家</a>
+												</div>
+											</svg>
+									</li>
+									<li class="svg-wrapper">
+											<svg height="40" width="150">
+												<rect id="shape" height="40" width="150" />
+												<div id="text">
+													<a href="http://www.umeng.com/">友盟</a>
+												</div>
+											</svg>
+									</li>
+									<li class="svg-wrapper">
+											<svg height="40" width="150">
+												<rect id="shape" height="40" width="150" />
+												<div id="text">
+													<a href="http://fir.im/apps">fir.im </a>
+												</div>
+											</svg>
+									</li>
+									<li class="svg-wrapper">
+											<svg height="40" width="150">
+												<rect id="shape" height="40" width="150" />
+												<div id="text">
+													<a href="https://open.weixin.qq.com/cgi-bin/index?t=home/index&lang=zh_CN">微信开放平台</a>
+												</div>
+											</svg>
+									</li>
+									<li class="svg-wrapper">
+											<svg height="40" width="150">
+												<rect id="shape" height="40" width="150" />
+												<div id="text">
+													<a href="http://www.gpsspg.com/api/convert/latlng/">
+											                 地图坐标转换API</a>
+												</div>
+											</svg>
+									</li>
+									<li class="svg-wrapper">
+											<svg height="40" width="150">
+												<rect id="shape" height="40" width="150" />
+												<div id="text">
+													<a href="https://www.jiguang.cn/dataservice">极光推送</a>
+												</div>
+											</svg>
+									</li>
+									
+									<li class="svg-wrapper">
+											<svg height="40" width="150">
+												<rect id="shape" height="40" width="150" />
+												<div id="text">
+													<a href="http://lbs.qq.com/webservice_v1/guide-gcoder.html">腾讯位置服务</a>
+												</div>
+											</svg>
+									</li>
+								</ul><!--常用第三方模块结束-->
+								<p class="model-title">自主学习</p><!--自主学习开始-->
+								<ul>
+									<li class="svg-wrapper">
+											<svg height="40" width="150">
+												<rect id="shape" height="40" width="150" />
+												<div id="text">
+													<a href="http://www.runoob.com/w3cnote">菜鸟教程</a>
+												</div>
+											</svg>
+									</li>
+									<li class="svg-wrapper">
+											<svg height="40" width="150">
+												<rect id="shape" height="40" width="150" />
+												<div id="text">
+													<a href="http://www.devstore.cn/">DevStore</a>
+												</div>
+											</svg>
+									</li>
+									<li class="svg-wrapper">
+											<svg height="40" width="150">
+												<rect id="shape" height="40" width="150" />
+												<div id="text">
+													<a href="http://www.jcodecraeer.com/">泡在网上的日子</a>
+												</div>
+											</svg>
+									</li>
+									<li class="svg-wrapper">
+											<svg height="40" width="150">
+												<rect id="shape" height="40" width="150" />
+												<div id="text">
+													<a href="http://www.lvyestudy.com/">绿叶学习网</a>
+												</div>
+											</svg>
+									</li>
+									<li class="svg-wrapper">
+											<svg height="40" width="150">
+												<rect id="shape" height="40" width="150" />
+												<div id="text">
+													<a href="http://www.oschina.net/">
+											                 开源中国</a>
+												</div>
+											</svg>
+									</li>
+									<li class="svg-wrapper">
+											<svg height="40" width="150">
+												<rect id="shape" height="40" width="150" />
+												<div id="text">
+													<a href="http://www.chanpin100.com/">产品100</a>
+												</div>
+											</svg>
+									</li>
+									<li class="svg-wrapper">
+											<svg height="40" width="150">
+												<rect id="shape" height="40" width="150" />
+												<div id="text">
+													<a href="http://gold.xitu.io/">
+											                 掘金</a>
+												</div>
+											</svg>
+									</li>
+									<li class="svg-wrapper">
+											<svg height="40" width="150">
+												<rect id="shape" height="40" width="150" />
+												<div id="text">
+													<a href="https://zhuanlan.zhihu.com/p/21910473">知乎</a>
+												</div>
+											</svg>
+									</li>
+									<li class="svg-wrapper">
+											<svg height="40" width="150">
+												<rect id="shape" height="40" width="150" />
+												<div id="text">
+													<a href="http://www.w3school.com.cn/html/html_intro.asp">W3C</a>
+												</div>
+											</svg>
+									</li>
+									<li class="svg-wrapper">
+											<svg height="40" width="150">
+												<rect id="shape" height="40" width="150" />
+												<div id="text">
+													<a href="http://www.cnblogs.com/schaepher/p/5561193.html">Git GitHub</a>
+												</div>
+											</svg>
+									</li>
+									
+								</ul><!--自学模块结束-->
+								<p class="model-title">Android学习</p><!--Android学习开始-->
+								<ul>
+									<li class="svg-wrapper">
+											<svg height="40" width="150">
+												<rect id="shape" height="40" width="150" />
+												<div id="text">
+													<a href="http://blog.csdn.net/sky1203850702/article/details/44916819">Android透明度查询</a>
+												</div>
+											</svg>
+									</li>
+									<li class="svg-wrapper">
+											<svg height="40" width="150">
+												<rect id="shape" height="40" width="150" />
+												<div id="text">
+													<a href="http://www.android-studio.org/index.php/chinese">Android Studio</a>
+												</div>
+											</svg>
+									</li>
+									<li class="svg-wrapper">
+											<svg height="40" width="150">
+												<rect id="shape" height="40" width="150" />
+												<div id="text">
+													<a href="http://www.devstore.cn/essay/essayInfo/6485.html">GitHub 前100</a>
+												</div>
+											</svg>
+									</li>
+									<li class="svg-wrapper">
+											<svg height="40" width="150">
+												<rect id="shape" height="40" width="150" />
+												<div id="text">
+													<!--android平台获取手机IMSI，IMEI ,序列号，和 手机号的方法 -->
+													<a href="http://www.cnblogs.com/tyjsjl/p/3585051.html">android平台获取手机... </a>
+												</div>
+											</svg>
+									</li>
+									<li class="svg-wrapper">
+											<svg height="40" width="150">
+												<rect id="shape" height="40" width="150" />
+												<div id="text">
+													<a href="http://www.cnblogs.com/renqingping/archive/2012/10/24/Application.html">Android中Application</a>
+											                
+												</div>
+											</svg>
+									</li>
+									<li class="svg-wrapper">
+											<svg height="40" width="150">
+												<rect id="shape" height="40" width="150" />
+												<div id="text">
+													<a href="http://www.360doc.com/content/14/0108/18/9484405_343645334.shtml">Android editText</a>
+												</div>
+											</svg>
+									</li>
+									<li class="svg-wrapper">
+											<svg height="40" width="150">
+												<rect id="shape" height="40" width="150" />
+												<div id="text">
+													<a href="http://www.cnblogs.com/zgz345/p/3768174.html">
+											                 Android webview</a>
+												</div>
+											</svg>
+									</li>
+									<li class="svg-wrapper">
+											<svg height="40" width="150">
+												<rect id="shape" height="40" width="150" />
+												<div id="text">
+													<a href="http://blog.sina.com.cn/s/blog_95532bcb0101o4r1.html">Android Intent</a>
+												</div>
+											</svg>
+									</li>
+									<li class="svg-wrapper">
+											<svg height="40" width="150">
+												<rect id="shape" height="40" width="150" />
+												<div id="text">
+													<a href="http://blog.sina.com.cn/s/blog_4b93170a0100qhwa.html">android selector</a>
+												</div>
+											</svg>
+									</li>
+									<li class="svg-wrapper">
+											<svg height="40" width="150">
+												<rect id="shape" height="40" width="150" />
+												<div id="text">
+													<a href="http://www.javaapk.com/demo/">Android demo whatever</a>
+												</div>
+											</svg>
+									</li>
+								</ul><!--Android学习结束-->
+								<p class="model-title">前端学习</p><!--前端学习开始-->
+								<ul>
+									<li class="svg-wrapper">
+											<svg height="40" width="150">
+												<rect id="shape" height="40" width="150" />
+												<div id="text">
+													<a href="http://www.qdfuns.com/feed">前端网</a>
+												</div>
+											</svg>
+									</li>
+									<li class="svg-wrapper">
+											<svg height="40" width="150">
+												<rect id="shape" height="40" width="150" />
+												<div id="text">
+													<a href="https://segmentfault.com/a/1190000004978770">前端资源灰机</a>
+												</div>
+											</svg>
+									</li>
+									<li class="svg-wrapper">
+											<svg height="40" width="150">
+												<rect id="shape" height="40" width="150" />
+												<div id="text">
+													<a href="http://sc.chinaz.com/tag_moban/ShiJianZhou.html">网站模板</a>
+												</div>
+											</svg>
+									</li>
+									<li class="svg-wrapper">
+											<svg height="40" width="150">
+												<rect id="shape" height="40" width="150" />
+												<div id="text">
+													<!--android平台获取手机IMSI，IMEI ,序列号，和 手机号的方法 -->
+													<a href="http://f2er.club/">醉酒前端 </a>
+												</div>
+											</svg>
+									</li>
+									<li class="svg-wrapper">
+											<svg height="40" width="150">
+												<rect id="shape" height="40" width="150" />
+												<div id="text">
+													<a href="https://css-tricks.com/examples/ShapesOfCSS/">CSS各种形状</a>
+											                
+												</div>
+											</svg>
+									</li>
+									<li class="svg-wrapper">
+											<svg height="40" width="150">
+												<rect id="shape" height="40" width="150" />
+												<div id="text">
+													<a href="http://www.17sucai.com/boards/94717.html">门素材（jQuery）</a>
+												</div>
+											</svg>
+									</li>
+									<li class="svg-wrapper">
+											<svg height="40" width="150">
+												<rect id="shape" height="40" width="150" />
+												<div id="text">
+													<a href="http://www.jq22.com/">
+											                 jQuery</a>
+												</div>
+											</svg>
+									</li>
+									<li class="svg-wrapper">
+											<svg height="40" width="150">
+												<rect id="shape" height="40" width="150" />
+												<div id="text">
+													<a href="http://www.dowebok.com/211.html">dowebok(jQuery)</a>
+												</div>
+											</svg>
+									</li>
+									<li class="svg-wrapper">
+											<svg height="40" width="150">
+												<rect id="shape" height="40" width="150" />
+												<div id="text">
+													<a href="https://segmentfault.com/q/1010000006672413?_ea=1095783">Rem 单位 </a>
+												</div>
+											</svg>
+									</li>
+									<li class="svg-wrapper">
+											<svg height="40" width="150">
+												<rect id="shape" height="40" width="150" />
+												<div id="text">
+													<a href="http://www.htmleaf.com/">jQuery之家 </a>
+												</div>
+											</svg>
+									</li>
+									<li class="svg-wrapper">
+											<svg height="40" width="150">
+												<rect id="shape" height="40" width="150" />
+												<div id="text">
+													<a href="http://www.xwcms.net/js/html5sl/89341.html">素材网  </a>
+												</div>
+											</svg>
+									</li>
+									<li class="svg-wrapper">
+											<svg height="40" width="150">
+												<rect id="shape" height="40" width="150" />
+												<div id="text">
+													<a href="http://www.css88.com/archives/5858">WEB前端开发  </a>
+												</div>
+											</svg>
+									</li>
+									<li class="svg-wrapper">
+											<svg height="40" width="150">
+												<rect id="shape" height="40" width="150" />
+												<div id="text">
+													<a href="https://www.zhihu.com/question/24398907">H5惊艳的Demo </a>
+												</div>
+											</svg>
+									</li>
+									<li class="svg-wrapper">
+											<svg height="40" width="150">
+												<rect id="shape" height="40" width="150" />
+												<div id="text">
+													<a href="http://www.devstore.cn/essay/essayInfo/6403.html">前端资源汇总  </a>
+												</div>
+											</svg>
+									</li>
+									<li class="svg-wrapper">
+											<svg height="40" width="150">
+												<rect id="shape" height="40" width="150" />
+												<div id="text">
+													<a href="http://expo.bootcss.com/">BootStrap优站精选  </a>
+												</div>
+											</svg>
+									</li>
+									
+								</ul><!--前端学习-->
+								<p class="model-title">学习视频</p><!--学习视频开始-->
+								<ul>
+									<li class="svg-wrapper">
+											<svg height="40" width="150">
+												<rect id="shape" height="40" width="150" />
+												<div id="text">
+													<a href="http://www.ablesky.com/kecheng/detail_4519">传智播客  </a>
+												</div>
+											</svg>
+									</li>
+									<li class="svg-wrapper">
+											<svg height="40" width="150">
+												<rect id="shape" height="40" width="150" />
+												<div id="text">
+													<a href="http://www.ycku.com/course/">瓢城WEB </a>
+												</div>
+											</svg>
+									</li>
+									<li class="svg-wrapper">
+											<svg height="40" width="150">
+												<rect id="shape" height="40" width="150" />
+												<div id="text">
+													<a href="http://study.163.com/course/introduction.htm?courseId=462001#/courseDetail">网易云 </a>
+												</div>
+											</svg>
+									</li>
+									<li class="svg-wrapper">
+											<svg height="40" width="150">
+												<rect id="shape" height="40" width="150" />
+												<div id="text">
+													<!--android平台获取手机IMSI，IMEI ,序列号，和 手机号的方法 -->
+													<a href="https://ke.qq.com/">腾讯课堂  </a>
+												</div>
+											</svg>
+									</li>
+									<li class="svg-wrapper">
+											<svg height="40" width="150">
+												<rect id="shape" height="40" width="150" />
+												<div id="text">
+													<a href="http://zt.chuanke.com/2015/it#a3">百度传课  </a>
+											                
+												</div>
+											</svg>
+									</li>
+									<li class="svg-wrapper">
+											<svg height="40" width="150">
+												<rect id="shape" height="40" width="150" />
+												<div id="text">
+													<a href="www.imooc.com">慕课</a>
+												</div>
+											</svg>
+									</li>
+									<li class="svg-wrapper">
+											<svg height="40" width="150">
+												<rect id="shape" height="40" width="150" />
+												<div id="text">
+													<a href="http://www.jikexueyuan.com/">极客学院</a>
+											                
+												</div>
+											</svg>
+									</li>
+								</ul><!--学习视频结束-->
+								<p class="model-title">博主</p><!--博主开始-->
+								<ul>
+									<li class="svg-wrapper">
+											<svg height="40" width="150">
+												<rect id="shape" height="40" width="150" />
+												<div id="text">
+													<a href="http://m.blog.csdn.net/article/details?id=51217319">自学Android   </a>
+												</div>
+											</svg>
+									</li>
+									<li class="svg-wrapper">
+											<svg height="40" width="150">
+												<rect id="shape" height="40" width="150" />
+												<div id="text">
+													<a href="http://blog.csdn.net/guzhenping/article/details/50496631">Android三种开发模式  </a>
+												</div>
+											</svg>
+									</li>
+									<li class="svg-wrapper">
+											<svg height="40" width="150">
+												<rect id="shape" height="40" width="150" />
+												<div id="text">
+													<a href="http://blog.csdn.net/lmj623565791/article/details/24252901">鸿洋   </a>
+												</div>
+											</svg>
+									</li>
+									<li class="svg-wrapper">
+											<svg height="40" width="150">
+												<rect id="shape" height="40" width="150" />
+												<div id="text">
+													<!--android平台获取手机IMSI，IMEI ,序列号，和 手机号的方法 -->
+													<a href="http://blog.csdn.net/eyu8874521/article/details/8552534">Mr梵谷的专栏    </a>
+												</div>
+											</svg>
+									</li>
+									<li class="svg-wrapper">
+											<svg height="40" width="150">
+												<rect id="shape" height="40" width="150" />
+												<div id="text">
+													<a href="http://blog.csdn.net/lxl20052051/article/details/6906356">设计模式   </a>
+											                
+												</div>
+											</svg>
+									</li>
+									<li class="svg-wrapper">
+											<svg height="40" width="150">
+												<rect id="shape" height="40" width="150" />
+												<div id="text">
+													<a href="http://blog.csdn.net/qq_26787115/article/details/51318455">Java基础 </a>
+												</div>
+											</svg>
+									</li>
+								</ul><!--博主结束-->
+								<p class="model-title">规范</p><!--规范开始-->
+								<ul>
+									<li class="svg-wrapper">
+											<svg height="40" width="150">
+												<rect id="shape" height="40" width="150" />
+												<div id="text">
+													<a href="http://blog.csdn.net/vipzjyno1/article/details/23542617">Android命名规范 </a>
+												</div>
+											</svg>
+									</li>
+									<li class="svg-wrapper">
+											<svg height="40" width="150">
+												<rect id="shape" height="40" width="150" />
+												<div id="text">
+													<a href="http://www.chinaz.com/design/2015/1103/465670.shtml">移动端设计尺寸大小规范  </a>
+												</div>
+											</svg>
+									</li>
+									<li class="svg-wrapper">
+											<svg height="40" width="150">
+												<rect id="shape" height="40" width="150" />
+												<div id="text">
+													<a href="http://alloyteam.github.io/CodeGuide/">前端规范  </a>
+												</div>
+											</svg>
+									</li>
+								</ul><!--规范结束-->
+								</ul><!--博主结束-->
+								<p class="model-title">设计</p><!--设计开始-->
+								<ul>
+									<li class="svg-wrapper">
+											<svg height="40" width="150">
+												<rect id="shape" height="40" width="150" />
+												<div id="text">
+													<a href="https://www.mockplus.cn/blog/a">Mockplus原型设计 </a>
+												</div>
+											</svg>
+									</li>
+									<li class="svg-wrapper">
+											<svg height="40" width="150">
+												<rect id="shape" height="40" width="150" />
+												<div id="text">
+													<a href="http://www.devstore.cn/special_column/info/3.html">Dev 设计 </a>
+												</div>
+											</svg>
+									</li>
+									<li class="svg-wrapper">
+											<svg height="40" width="150">
+												<rect id="shape" height="40" width="150" />
+												<div id="text">
+													<a href="http://www.pmcaff.com/site/selection">PMCAFF  </a>
+												</div>
+											</svg>
+									</li>
+									
+									<li class="svg-wrapper">
+											<svg height="40" width="150">
+												<rect id="shape" height="40" width="150" />
+												<div id="text">
+													<a href="https://modao.cc/?">墨刀 </a>
+												</div>
+											</svg>
+									</li>
+								</ul><!--设计结束-->
+								<p class="model-title">Oh My God!!!</p><!--Oh My God!!!开始-->
+								<ul>
+									<li class="svg-wrapper">
+											<svg height="40" width="150">
+												<rect id="shape" height="40" width="150" />
+												<div id="text">
+													<a href="http://mobdevgroup.com/">开源分享  </a>
+												</div>
+											</svg>
+									</li>
+									<li class="svg-wrapper">
+											<svg height="40" width="150">
+												<rect id="shape" height="40" width="150" />
+												<div id="text">
+													<a href="http://appxcode.com/index.php?con=index&act=product&id=41">APP Code  </a>
+												</div>
+											</svg>
+									</li>
+									<li class="svg-wrapper">
+											<svg height="40" width="150">
+												<rect id="shape" height="40" width="150" />
+												<div id="text">
+													<a href="http://www.jikedaohang.com/mianshi.html">极客导航 </a>
+												</div>
+											</svg>
+									</li>
+									
+									<li class="svg-wrapper">
+											<svg height="40" width="150">
+												<rect id="shape" height="40" width="150" />
+												<div id="text">
+													<a href="http://f2er.club/">醉酒前端  </a>
+												</div>
+											</svg>
+									</li>
+								</ul><!--Oh My God!!!结束-->
+								<p class="model-title">玩玩玩</p><!--玩玩玩开始-->
+								<ul>
+									<li class="svg-wrapper">
+											<svg height="40" width="150">
+												<rect id="shape" height="40" width="150" />
+												<div id="text">
+													<a href="http://gdgxian.org/">GDG</a>
+												</div>
+											</svg>
+									</li>
+									<li class="svg-wrapper">
+											<svg height="40" width="150">
+												<rect id="shape" height="40" width="150" />
+												<div id="text" >
+													<a href="https://mart.coding.net/cases">码市  </a>
+												</div>
+											</svg>
+									</li>
+									<li class="svg-wrapper">
+											<svg height="40" width="150">
+												<rect id="shape" height="40" width="150" />
+												<div id="text">
+													<a href="https://fuzhuang.1688.com/nvzhuang?spm=a260k.635.1998214976.1.i7kRvz">1688   </a>
+												</div>
+											</svg>
+									</li>
+									
+									<li class="svg-wrapper">
+											<svg height="40" width="150">
+												<rect id="shape" height="40" width="150" />
+												<div id="text">
+													<a href="https://admire.so/">每天一个好链接 </a>
+												</div>
+											</svg>
+									</li>
+									<li class="svg-wrapper">
+											<svg height="40" width="150">
+												<rect id="shape" height="40" width="150" />
+												<div id="text">
+													<a href="http://www.guokr.com/">果壳网</a>
+												</div>
+											</svg>
+									</li>
+									<li class="svg-wrapper">
+											<svg height="40" width="150">
+												<rect id="shape" height="40" width="150" />
+												<div id="text">
+													<a href="https://zhuanlan.zhihu.com/p/22687249">知乎100万 </a>
+												</div>
+											</svg>
+									</li>
+									
+									<li class="svg-wrapper">
+											<svg height="40" width="150">
+												<rect id="shape" height="40" width="150" />
+												<div id="text">
+													<a href="http://www.juzimi.com/writer/%E6%B5%B7%E6%98%8E%E5%A8%81">海明威  </a>
+												</div>
+											</svg>
+									</li>
+									<li class="svg-wrapper">
+											<svg height="40" width="150">
+												<rect id="shape" height="40" width="150" />
+												<div id="text">
+													<a href="http://yuedu.fm/channel/1/">悦读  </a>
+												</div>
+											</svg>
+									</li>
+								</ul><!--玩玩玩开始结束-->
+						</div><!--粉色外边框结束-->
+					</div>
+					<!--android作品展示结束-->
+
+				</div>
+			</div>
+			<!--主模块结束-->
+		</div>
+
+		<!--内容结束-->
+		<div id="info-foot">
+		<div class="clean" id="hr">
+			<hr>
+		</div>
+		<div class="foot">
+			<div id="middle">
+				<!--分享开始-->
+				<!-- Baidu Button BEGIN -->
+				<div id="bdshare" class="bdshare_t bds_tools_32 get-codes-bdshare">
+					<a class="bds_tsina"></a>
+					<a class="bds_tqq"></a>
+					<a class="bds_renren"></a>
+					<a class="bds_qzone"></a>
+					<a class="bds_douban"></a>
+					<a class="bds_xg"></a>
+					<span class="bds_more">更多</span>
+					<a class="shareCount"></a>
+				</div>
+				<script type="text/javascript" id="bdshare_js" data="type=tools"></script>
+				<script type="text/javascript" id="bdshell_js"></script>
+				<script type="text/javascript">
+					document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + new Date().getHours();
+				</script>
+				<!-- Baidu Button END -->
+
+				<div style="display: none">
+					<script language="javascript" type="text/javascript" src="http://js.users.51.la/4473358.js"></script>
+					<script type="text/javascript">
+						var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+						document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fadd0db9dee36c7a9b64141788e26de72' type='text/javascript'%3E%3C/script%3E"));
+					</script>
+
+					<script type="text/javascript">
+						var _gaq = _gaq || [];
+						_gaq.push(['_setAccount', 'UA-21395429-1']);
+						_gaq.push(['_trackPageview']);
+
+						(function() {
+							var ga = document.createElement('script');
+							ga.type = 'text/javascript';
+							ga.async = true;
+							ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+							var s = document.getElementsByTagName('script')[0];
+							s.parentNode.insertBefore(ga, s);
+						})();
+					</script>
+				</div>
+				<!--分享结束-->
+			</div>
+			<!--底部开始-->
+			<br />
+			<p>Copyright © 2016.Zhangqiong All rights reserved.网页模板</p>
+		</div>
+		</div>
+		<!--底部结束-->
+		<div class="clean"></div>
+		<script>
+			$(function() {
+				$('.dowebok').filterizr();
+
+				$('.type-nav li').on('click', function() {
+					$(this).toggleClass('active').siblings().removeClass('active');
+				});
+			});
+		</script>
+	</body>
+	
+
+</html>

@@ -1,0 +1,21 @@
+.box1{
+	float: left;
+	width:100px;
+	height: 100px;
+	border: 1px solid #F00;
+	background: #C00;
+}
+.box2{
+	float: left;
+	width:200px;
+	height: 200px;
+	border: 1px solid #0F0;
+	background: #0F0;
+}
+.box3{
+	width:500px;
+	height: 500px;
+	border: 1px solid #F90;
+	background: #F0A;
+	clear: left;
+}

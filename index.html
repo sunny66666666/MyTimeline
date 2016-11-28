@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>My Timeline.Home</title>
+		<link rel="stylesheet" href="css/timeline-style.css" />
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<link href='http://fonts.googleapis.com/css?family=Economica:700' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+		<div class="head">
+			<!--头部开始-->
+			<h1>WORKS COLLECTION</h1>
+			<h2>Stay hungry,stay foolish</h2>
+		</div>
+		<!--头部结束-->
+		<div class="content">
+			<!--内容开始-->
+			<div class="nav">
+				<!--导航开始-->
+				<div class="nav-list">
+					<ul>
+						<li>
+							<a href="#" id="home">Home</a>
+						</li>
+						<li>
+							<a href="web.html" class="nav-a" onclick="changeBg()">Web</a>
+						</li>
+						<li>
+							<a href="android.html" class="nav-a">Android</a>
+						</li>
+						<li>
+							<a href="info.html" class="nav-a">Info</a>
+						</li>
+						<li id="no-after">
+							<a href="about.html" class="nav-a">About</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="main">
+				<!--主模块开始-->
+				<div class="timeline">
+					<div class="line">
+						<!--中间那条线-->
+						<div class="main-box">
+							<!--第一行开始-->
+							<img src="img/4.jpg" />
+							
+							<div class="main-box-div">
+								<div class="box-left">
+									<a href="web.html">
+										<h2>Website Development</h2></a>
+								</div>
+								<div class="box-right">
+									<h3>WEB+3</h3>
+								</div>
+							</div>
+						</div>
+						<div class="main-box" id="box1">
+							<img src="img/app1.png" />
+							<div class="main-box-div">
+								<div class="box-left">
+									<a href="android.html">
+										<h2>Android Application</h2></a>
+								</div>
+								<div class="box-right">
+									<h3>Android+9</h3>
+								</div>
+							</div>
+						</div>
+						<!--第一行结束-->
+						<div class="main-box" id="box2">
+							<!--第二行开始-->
+							<img src="img/5.jpg" />
+							<div class="main-box-div">
+								<div class="box-left">
+									<a href="info.html">
+										<h2>Save Informatio</h2></a>
+								</div>
+								<div class="box-right">
+									<h3>Info+</h3>
+								</div>
+							</div>
+						</div>
+						<div class="main-box" id="box3">
+							
+							<img src="img/big7.jpg" />
+							<div class="main-box-div">
+								<div class="box-left">
+									<a href="about.html">
+										<h2>About</h2></a>
+								</div>
+								<div class="box-right">
+									<h3>More</h3>
+								</div>
+							</div>
+						</div>
+						<!--第二行结束-->
+					</div>
+					<!--中间那条线-->
+					<div class="clean"></div>
+					<div class="to-top">
+						<a href="#" class="to-top">Older<br/> Poster</a>
+					</div>
+				</div>
+			</div>
+			<!--主模块结束-->
+		</div>
+
+		<!--内容结束-->
+		<div class="clean" id="hr">
+			<hr >
+		</div>
+		<div class="foot">
+			<div id="middle"><!--分享开始-->
+			<!-- Baidu Button BEGIN -->
+			<div id="bdshare" class="bdshare_t bds_tools_32 get-codes-bdshare" >
+				<a class="bds_tsina"></a>
+				<a class="bds_tqq"></a>
+				<a class="bds_renren"></a>
+				<a class="bds_qzone"></a>
+				<a class="bds_douban"></a>
+				<a class="bds_xg"></a>
+				<span class="bds_more">更多</span>
+				<a class="shareCount"></a>
+			</div>
+			<script type="text/javascript" id="bdshare_js" data="type=tools"></script>
+			<script type="text/javascript" id="bdshell_js"></script>
+			<script type="text/javascript">
+				document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + new Date().getHours();
+			</script>
+			<!-- Baidu Button END -->
+
+			<div style="display: none">
+				<script language="javascript" type="text/javascript" src="http://js.users.51.la/4473358.js"></script>
+				<script type="text/javascript">
+					var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+					document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fadd0db9dee36c7a9b64141788e26de72' type='text/javascript'%3E%3C/script%3E"));
+				</script>
+
+				<script type="text/javascript">
+					var _gaq = _gaq || [];
+					_gaq.push(['_setAccount', 'UA-21395429-1']);
+					_gaq.push(['_trackPageview']);
+
+					(function() {
+						var ga = document.createElement('script');
+						ga.type = 'text/javascript';
+						ga.async = true;
+						ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+						var s = document.getElementsByTagName('script')[0];
+						s.parentNode.insertBefore(ga, s);
+					})();
+				</script>
+			</div><!--分享结束-->
+			</div>
+			<!--底部开始-->
+			<br />
+			<p>Copyright © 2016.Zhangqiong All rights reserved.网页模板</p>
+		</div>
+		<!--底部结束-->
+		<div class="clean"></div>
+	</body>
+	<script>
+		function changeBg() {
+			//		$("#home").css("background","#2A3A4F")
+		}
+	</script>
+</html>

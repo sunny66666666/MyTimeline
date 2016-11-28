@@ -1,0 +1,101 @@
+.android-box {
+	background: #fff;
+	padding: 50px;
+}
+
+.work-pics {
+	border: 2px solid #FF6765;
+	width: 960px;
+	height:1200px;
+}
+
+.type-nav {
+	width: 1080px;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 0;
+}
+
+.type-nav li {
+	display: inline-block;
+	margin: 0 5px;
+	padding: 10px 20px;
+	font-size: 14px;
+	color: #333;
+	background-color: #ccc;
+	cursor: pointer;
+}
+
+.type-nav .active {
+	color: #fff;
+	background-color: #21b384;
+}
+
+.dowebok {
+	width: 700px;
+	margin: 0 auto;
+	font-size: 0;
+}
+
+.filtr-item {
+	display: inline-block;
+	width: 220px;
+	height: 300px;
+	padding: 15px;
+}
+
+.filtr-item img {
+	width: 100%;
+}
+
+.item1 .li {
+	position: relative;
+	float: left;
+	width: 220px;
+	height: 350px;
+}
+
+.item1 div {
+	position: absolute;
+	left: 10;
+	width: 220px;
+	height: 50px;
+	text-align: center;
+	opacity: 0.8;
+	color: #FFF;
+	overflow: hidden;
+}
+
+.item1 p {
+	width: 200px;
+	line-height: 20px;
+	text-align: left;
+	text-indent: 2em;
+	font-size: 12px;
+	display: none;
+}
+
+.item1 h3 {
+	height: 40px;
+	background: url(../img/android.png) no-repeat;
+	line-height: 40px;
+	color: #fff;
+}
+.hover-div{
+	top:300px;
+	height: 50px;
+	background: #2A3A4F no-repeat;
+	width: 220px;
+	left: 15px;
+	text-align: center;
+	vertical-align: middle;
+}
+.android #hr{
+	top:200px
+}
+.android .clean{
+	top:200px
+}
+.android .foot{
+	top:200px
+}

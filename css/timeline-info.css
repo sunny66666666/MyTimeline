@@ -1,0 +1,26 @@
+.model-title{
+	padding: 20px;
+	font-family: "微软雅黑";
+	font-size: 18px;
+	
+}
+.work-pics ul{
+	margin-left: 20px;
+}
+
+.work-pics ul li{
+	list-style: none;
+	margin: 10px;
+}
+#url-box{
+	border: 2px solid #FF6765;
+	width: 960px;
+	height:2000px;
+}
+
+.android #hr {
+    top: 1000px;
+}
+.android .foot {
+    top: 1000px;
+}
